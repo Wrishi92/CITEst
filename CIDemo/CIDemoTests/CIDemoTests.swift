@@ -26,7 +26,7 @@ class CIDemoTests: XCTestCase {
 
     func testadd(){
         let a = 2
-        let b = 2
+        let b = 3
         let result = sut?.addtest(value1: a, value2: b)
         XCTAssertTrue(result == 4)
     }
